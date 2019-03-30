@@ -1,7 +1,24 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+const MorganWorld = () => {
+    const Queen = 'Queen Morgan'
+    console.log(`Long live ${Queen}!`)
 
+    const lostCity = () => {
+      const Doctor = "Strange"
+      console.log(`${Queen} says off with their heads`)
+      
+      function town() {
+        const Crow = 'Third eye Crow'
+        console.log(`${Crow} has a message for the town: ${Queen} says Off with their heads! And ${Doctor}  says after they have eaten their apple for the day!`)
+      }
+      town()
+    }
+    lostCity()
+  }
+  
+  MorganWorld()
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 
